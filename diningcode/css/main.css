@@ -1,0 +1,166 @@
+body{
+    display: block;
+}
+
+.head-div{
+    display: flex;
+    background-color: white;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.head-logo{
+    width: 30%;
+    text-align: center;
+    font-size: 32px;
+}
+
+.input-group{
+    width: 50%;
+    display: flex;
+}
+
+.head-login{
+    width: 30%;
+    text-align: center;
+}
+
+.head-login button{
+    border: none;
+    background-color: inherit;
+
+}
+
+.nav-div{
+    background-color: #e5e5e5;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.nav-div li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-div a{
+    text-decoration: none;
+    color: #074565;
+    font-size: 14px;
+}
+
+.recom-div{
+    text-align: center;
+    background-color: #074565;
+    height: 250px;
+    padding-top: 60px;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.recom-div button{
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    letter-spacing: -1px;
+}
+
+.location-div{
+    background-color: #f6f6f6;
+    height: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.main-content{
+    width: 80%;
+    margin-top: 40px;
+}
+
+.main-head{
+    background-color: #fafafa;
+    display: flex;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 16px 16px 0 0;
+    box-sizing: border-box;
+}
+
+.main-head h1{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.main-head button{
+    border: none;
+    background-color: #eaeaea;
+    border-radius: 32px;
+    width: 120px;
+    letter-spacing: -1px;
+    height: 40px;
+}
+
+.main-content button{
+    display: inline-block;
+}
+
+.main-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: -20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 0 0 16px 16px;
+}
+
+.main-picdiv {
+
+    display: flex;
+    flex-direction: column; /* 변경된 부분: 세로로 나열되도록 수정 */
+    justify-content: flex-start;
+    align-items: flex-start; /* 변경된 부분: 가운데 정렬 */
+    padding: 30px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.main-picdiv .image-container {
+    margin-right: 20px; /* 필요에 따라 여백을 조정하세요 */
+    margin-bottom: 10px;
+}
+
+.main-picdiv img {
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+.main-picdiv p{
+    font-weight: bold;
+}
